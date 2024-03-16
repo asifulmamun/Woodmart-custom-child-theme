@@ -140,7 +140,14 @@ if ( (bool) woodmart_get_opt( 'product_sticky' ) || woodmart_get_opt( 'product_s
 			<img src="https://i.postimg.cc/MTYbBMPP/Screenshot-from-2024-03-15-00-28-42.png" alt="Auto Update">
 			<div class="mini_status_desc">
 				<div>Auto Update</div>
-				<div>Yes (1 year)</div>
+				<div><a target="_blank" href="/how-to-update/">Yes (1 Year)?</a></div>
+			</div>
+		</li>
+		<li class="col-6 col-lg-3 col-md-3">
+			<img src="https://i.postimg.cc/MTYbBMPP/Screenshot-from-2024-03-15-00-28-42.png" alt="Auto Update">
+			<div class="mini_status_desc">
+				<div>Mannual Update</div>
+				<div><a target="_blank" href="/how-to-update-manually/">Yes (1 Year)?</a></div>
 			</div>
 		</li>
 
@@ -148,7 +155,7 @@ if ( (bool) woodmart_get_opt( 'product_sticky' ) || woodmart_get_opt( 'product_s
 			<img src="https://i.postimg.cc/hj38MWnT/Screenshot-from-2024-03-15-00-44-35.png" alt="Auto Update">
 			<div class="mini_status_desc">
 				<div>Version</div>
-				<div>20.0.2 <sup>Update</sup></div>
+				<div>20.0.2 <sup><a target="_blank" href="/contact-version">Update?</a></sup></div>
 			</div>
 		</li>
 		
@@ -159,16 +166,6 @@ if ( (bool) woodmart_get_opt( 'product_sticky' ) || woodmart_get_opt( 'product_s
 				<div>March 14, 2024</div>
 			</div>
 		</li>
-		<li class="col-6 col-lg-3 col-md-3">
-			<img src="https://i.postimg.cc/vmYWsHH5/Screenshot-from-2024-03-15-00-45-42.png" alt="Auto Update">
-			<div class="mini_status_desc">
-				<div>VT Satus</div>
-				<div>Clean</div>
-			</div>
-		</li>
-		
-
-
 	</ul>
 </section>
 <!-- / Product Mini Status -->
@@ -220,7 +217,8 @@ if ( (bool) woodmart_get_opt( 'product_sticky' ) || woodmart_get_opt( 'product_s
 	.product_mini_status .mini_status_desc div:last-child{
 		color: var(--custom_secondary_txt);
 	}
-	.product_mini_status .mini_status_desc div:last-child sup{
+	.product_mini_status .mini_status_desc div:last-child sup a{
+		text-transform: uppercase;
 		color: var(--custom_optional_color);
 	}
 </style>
